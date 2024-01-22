@@ -8,7 +8,7 @@ apt upgrade -y
 pkg install python -y
 pkg install git -y
 pip install requests
-git clone https://github.com/ArafatArXu/ARXU_BOMBER
+git clone https://github.com/ArafatArXu/ARXU_BOMBER/
 cd ARXU_BOMBER
 ```
 ```Python3
