@@ -50,7 +50,7 @@ def update():
         authorMsg = "None"
     
     try:
-        parsedData = requests.get("https://raw.githubusercontent.com/ArafatArXu/ARXU_BOMBER/main/.more/.versions").json()
+        parsedData = requests.get("https://raw.githubusercontent.com/ArafatArXu/ARXU_BOMBER/main/more/.versions").json()
     except:
         psb("\n    \033[92m[\033[91m!\033[92m] \033[37mPlease Connect To The Internet!")
         time.sleep(1)
@@ -105,7 +105,7 @@ def banner():
 # Start Running Tool
 if (__name__ == "__main__"):
     checkPy()
-    from .more.data import *
+    from more.data import *
     arxuArt()
     update()
     main()
