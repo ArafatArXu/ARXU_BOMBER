@@ -50,7 +50,7 @@ def update():
         authorMsg = "None"
     
     try:
-        parsedData = requests.get("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version").json()
+        parsedData = requests.get("https://raw.githubusercontent.com/ArafatArXu/ARXU_BOMBER/main/.more/.versions").json()
     except:
         psb("\n    \033[92m[\033[91m!\033[92m] \033[37mPlease Connect To The Internet!")
         time.sleep(1)
@@ -66,7 +66,7 @@ def update():
         time.sleep(0.5)
         psb("    \033[92m[\033[37m!\033[92m] \033[37mUpdating Tool: ", end="")
         
-        os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Arxuishere/ARXU_BOMBER > /dev/null 2>&1")
+        os.system("cd .. && rm -rf ARXU_BOMBER && git clone https://github.com/Arxuishere/ARXU_BOMBER/ > /dev/null 2>&1")
         
         print("\033[37mDone")
         psb("\n    \033[92m[\033[37m*\033[92m] \033[37mStarting Tool...")
@@ -105,7 +105,7 @@ def banner():
 # Start Running Tool
 if (__name__ == "__main__"):
     checkPy()
-    from more.data import *
+    from ARXU_BOMBER.more.data import *
     arxuArt()
     update()
     main()
