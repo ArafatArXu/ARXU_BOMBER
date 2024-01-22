@@ -105,7 +105,7 @@ def banner():
 # Start Running Tool
 if (__name__ == "__main__"):
     checkPy()
-    from ARXU_BOMBER.more.data import *
+    from .more.data import *
     arxuArt()
     update()
     main()
